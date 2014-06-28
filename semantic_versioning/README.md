@@ -1,8 +1,8 @@
 # Semantic versioning
 
-Cortex owns fully support for sementic version.
+Cortex fully support semantic version, thus making it trivial work to deliver a patched or bug fixed version without touching the code.
 
-Open cortex.json, you will find the dependency field:
+Open cortex.json, check the `dependencies` field:
 
 ```
 "dependencies": {

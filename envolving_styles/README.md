@@ -1,6 +1,6 @@
 # Envolving styles
 
-Sometimes you want to ship some stylesheets long with the scripts.
+Sometimes you want to ship some stylesheets along with the scripts.
 
 By defining the `css` field in `cortex.json`, you can specify where your css resources lies in. All files matching the pattern will be packaged into the bundle.
 
