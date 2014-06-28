@@ -13,18 +13,10 @@ npm install -g cortex-test
 
 ## 2. Add a test page
 
-Add a page called colorify.html in the test folder
+Create a page called colorify.html in the test folder, and just add the necessary markup:
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<div id="paper"></div>
-</body>
-</html>
+<div id="paper"></div>
 ```
 
 ## 3. Write test cases
