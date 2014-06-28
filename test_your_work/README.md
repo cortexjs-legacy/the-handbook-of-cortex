@@ -1,6 +1,6 @@
 # Always remember to test
 
-Now lets's add our testcase.
+Now let's add some testcases.
 
 ## 1. Install Cortex Test
 
@@ -47,7 +47,7 @@ describe('colorify', function() {
 });
 ```
 
-## Run the test case
+## Run the test
 
 In the project root path, run:
 
@@ -55,5 +55,5 @@ In the project root path, run:
 cortex test
 ```
 
-A page will be open and you can see the test result there.
+A page will be open in your browser and you can see the test result there.
 

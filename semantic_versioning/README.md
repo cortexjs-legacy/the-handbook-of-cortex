@@ -14,4 +14,4 @@ When you install some dependency, by default the tilde operators is used, meanin
 
 If you want to use a specifed version or define a different range, just edit the field and re-run `cortex install`. Cortex will ask for the registry and find the proper version.
 
-For more Info about semantic version pattern, visit http://semver.org/
+For more Information about semantic version pattern, visit http://semver.org/.
