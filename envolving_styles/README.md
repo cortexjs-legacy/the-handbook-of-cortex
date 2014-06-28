@@ -1,5 +1,7 @@
-# Envolving styles
+# Envolving styles and other resources
 
+
+## 1. Stylesheet
 Sometimes you want to ship some stylesheets along with the scripts.
 
 By defining the `css` field in `cortex.json`, you can specify where your css resources lies in. All files matching the pattern will be packaged into the bundle.
@@ -25,4 +27,30 @@ If you are using some css preproccessors such as stylus, you can specified the p
     "built_css/*.css"
   ]
 }
+```
+
+
+
+## 2. Ohter resources
+You can also ship other resources such as images, templates. Suppose you place them in a folder called 'source':
+```
+root/
+   |-- source/
+            |-- avatar.png
+   |-- index.js
+```
+
+
+In cortex.json, set the `direcotries.src` field to that folder:
+```
+{
+  "directories": {
+    "src": "source"
+  }
+}
+```
+
+Then in index.js, you can use require.resolve() to accquire the absoulute path of that resources.
+```js
+var default_avatar = require.resolve('./source/avatar.png');
 ```
