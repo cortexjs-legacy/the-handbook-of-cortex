@@ -20,42 +20,78 @@ It helps people to know what is this package about.
 
 It's an array of strings, always put some keywords here, and it will helps people to discover the package while searching
 
-## homepage
-
-The project homepage
-
-## repositry
-
-The project repositry, like:
-```
-"repository": "git://github.com/cortexjs/cortexjs-www.git"
-```
-
-
-## bugs
-
-The bugs report page, like this:
-```
-"bugs": {
-    "url": "http://github.com/cortexjs/cortexjs-www/issues"
- }
-```
-
-## license
-The project license
-
-## author, contributors
-The "author" is one person. "contributors" is an array of people. A "person" is an object with a "name" field and optionally "url" and "email", like this:
-
-```
-{
-    "name": "ltebean",
-    "email": "yucong1118@gmail.com"
-}
-```
 
 ## main
 The entry point of a package, it's modules.exports will be returned when calling `require('packageName')`.
+
+## entries
+Cotex supports multiple entries(See Chapter 2.1 for details). All matching files will be treated as an entry when built, and you can load them using `facade` or `require.async`
+
+Usage:
+```
+{
+  "entries": [
+    "entries/*.js",
+    "pages/a.js"
+  ]
+}
+```
+
+## css
+This field specifies where is the css resources. It's an array of file path, glob pattern is also supported. The order matters and it decides the built result.
+```
+{
+  "css": [
+    "css/a.css",
+    "css/b.css"
+   ]
+}
+```
+
+## direcotry.src
+Describe resources such as images, templates. Suppose you place them in a folder called 'source':
+```
+root/
+   |-- source/
+            |-- avatar.png
+   |-- index.js
+```
+
+
+set the `direcotries.src` field to that folder:
+```
+{
+  "directories": {
+    "src": "source"
+  }
+}
+```
+
+Then in index.js, you can use require.resolve() to accquire the absoulute path of that resources.
+```js
+var default_avatar = require.resolve('./source/avatar.png');
+```
+
+## scripts
+
+Allows you to define custom build scripts during the life cycle of `cortex build`
+
+### scripts.prebuild
+Thes scripts will be called before built.
+
+```
+{
+  "scripts": {
+    "prebuild": [
+      "gulp dev",
+      "gulp"
+    ]
+  }
+}
+```
+
+
+
 
 
 
