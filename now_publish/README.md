@@ -27,7 +27,7 @@ compressing directory "/Users/ltebean/Desktop/colorify" to tarball "/Users/ltebe
 ```
 
 Now other people can use our package by:
-```
+```bash
 cortex install colorify
 ```
 

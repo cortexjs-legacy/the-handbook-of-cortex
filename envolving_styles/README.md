@@ -4,13 +4,14 @@
 ## 1. Stylesheet
 Sometimes you want to ship some stylesheets along with the scripts.
 
-By defining the `css` field in `cortex.json`, you can specify where your css resources lies in. All files matching the pattern will be packaged into the bundle.
+By defining the `css` field in `cortex.json`, you can specify where your css resources lies in. The order matters and glob pattern is supported. All files specified in this field will be packaged into the bundle.
 
 ```
 {
   "css": [
-    "css/*.css"
-  ]
+    "css/a.css",
+    "css/b.css"
+   ]
 }
 ```
 
@@ -24,7 +25,8 @@ If you are using some css preproccessors such as stylus, you can specified the p
     ]
   },
   "css": [
-    "built_css/*.css"
+    "built_css/a.css",
+    "built_css/a.css"
   ]
 }
 ```
