@@ -12,6 +12,5 @@
    * [Lock down dependencies](lock_down_dependencies/README.md)
    * [Deploy](build_web_sites/deploy.md)
 * [Instructions](instructions/README.md)
-   * [Cortex vs *](cortex_vs/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
 
