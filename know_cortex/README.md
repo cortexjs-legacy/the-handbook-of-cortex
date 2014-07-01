@@ -1,6 +1,6 @@
 # Know Cortex
 
-![logo](../images/logo+text.png)
+![logo](https://raw.githubusercontent.com/cortexjs/the-handbook-of-cortex/master/images/logo+text.png)
 
 [Cortex](http://ctx.io) is the ultimate solution to front end development and a package manager for browsers.
 
