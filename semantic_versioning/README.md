@@ -1,4 +1,4 @@
-# Semantic versioning
+# Semantic Versioning
 
 Cortex fully support [Semantic Versioning](http://semver.org), thus making it trivial work to deliver a patched or bug fixed version without touching the code.
 

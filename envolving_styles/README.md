@@ -1,4 +1,4 @@
-# Envolving styles and other resources
+# Envolving Styles and Other Resources
 
 
 ## 1. Stylesheet

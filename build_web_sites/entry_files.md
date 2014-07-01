@@ -1,4 +1,4 @@
-# Entry files
+# Entry Files
 
 Unlike module(which has a single entry),  a website usually consists of lots of pages, which results in mutiple entry files.
 

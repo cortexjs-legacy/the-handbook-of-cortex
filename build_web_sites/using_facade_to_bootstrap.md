@@ -1,4 +1,4 @@
-# Bootstrap with facades
+# Bootstrap with Facades
 
 Cortex uses neuron as the module loader, first include these two scripts in the page from the built result:
 

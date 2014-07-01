@@ -1,4 +1,4 @@
-# Write code as nodejs
+# Write Code as Nodejs
 
 Now let's get hand dirty.
 

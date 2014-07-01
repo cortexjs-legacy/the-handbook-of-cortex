@@ -1,4 +1,4 @@
-# Lock down dependencies
+# Lock Down Dependencies
 
 In production, you always need to control exactly which versions of each dependency will be used when your package is installed, that's why `cortex-shrinkwrap` comes in.
 
