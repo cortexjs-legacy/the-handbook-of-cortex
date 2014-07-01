@@ -2,7 +2,7 @@
 
 * [Know Cortex](know_cortex/README.md)
 * [Your first module](your_first_module/README.md)
-   * [Write code as in nodejs](your_first_module/write_code_as_nodejs.md)
+   * [Write code as nodejs](your_first_module/write_code_as_nodejs.md)
    * [Always remember to test](test_your_work/README.md)
    * [Envolving styles and other resources](envolving_styles/README.md)
    * [Semantic versioning](semantic_versioning/README.md)
