@@ -18,7 +18,7 @@ First we need to register an account. There are two approaches:
 
 In project root path, run `cortex publish` to publish the package to the registry. If everythings goes well, you will see:
 
-```
+```bash
 compressing directory "/Users/ltebean/Desktop/colorify" to tarball "/Users/ltebean/.cortex/default/tmp/tmp-1048-mv0p04a6lz4w44o/package.tgz"
    PUT http://r.ctx.io/colorify 201
    GET http://r.ctx.io/colorify 200
@@ -27,7 +27,8 @@ compressing directory "/Users/ltebean/Desktop/colorify" to tarball "/Users/ltebe
 ```
 
 Now other people can use our package by:
+
 ```bash
-cortex install colorify
+cortex install colorify --save
 ```
 

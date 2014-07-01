@@ -14,11 +14,11 @@ Cortex will ask you a bunch of questions, and using the default will be fine. If
 
 ```
 colorify/
-|-test/              // your test cases belongs here
-|   |-colorify.js
-|-cortex.json       // package info, similar to package.json in npm
-|-index.html        // module runner
-|-index.js          // module's entry point
+|-- test/              // your test cases belongs here
+|      |-- colorify.js
+|-- cortex.json        // package info, similar to package.json in npm
+|-- index.html         // module runner
+|-- index.js           // module's entry point
 ```
 
 cortex.json is much like package.json in npm, it describes all the information about this package. For complete reference, see Chaptar 3.2 - About cortex.json.
@@ -47,8 +47,8 @@ Now that `jquery` is installed, we can depend on it to reach our goal, edit inde
 ```js
 var $ = require('jquery');
 
-function colorify(selector,color){
-	$(selector).css('background-color',color)
+function colorify(selector, color){
+  $(selector).css('background-color', color);
 }
 
 module.exports = colorify;

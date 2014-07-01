@@ -24,18 +24,16 @@ Create a page called colorify.html in the test folder, and just add the necessar
 `cortex-test` use `mocha` as the test framework, edit test/colorify.js,
 
 ```js
-'use strict';
-
 var colorify = require('../index');
 var $ = require('jquery');
 
 var assert = require('assert');
 
 describe('colorify', function() {
-	it('should set the background color properly', function() {
-		colorify('#paper', 'red');
-		assert($('#paper').css('background-color'), 'red');
-	});
+  it('should set the background color properly', function() {
+    colorify('#paper', 'red');
+    assert($('#paper').css('background-color'), 'red');
+  });
 });
 ```
 
@@ -43,7 +41,7 @@ describe('colorify', function() {
 
 In the project root path, run:
 
-```
+```bash
 cortex test
 ```
 
