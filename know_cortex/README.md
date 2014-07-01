@@ -2,7 +2,9 @@
 
 ![logo](../images/logo+text.png)
 
-[Cortex](http://ctx.io) is the ultimate solution to front end development. It helps you write modular, resusable packages for browsers, which are not just javascript, but also including css, images, fonts, and etc.
+[Cortex](http://ctx.io) is the ultimate solution to front end development and a package manager for browsers.
+
+It helps you write modular, resusable packages for browsers, which are not just javascript, but also including css, images, fonts, and etc.
 
 Cortex offers:
 * A [registry cloud](http://ctx.io) for package management.
