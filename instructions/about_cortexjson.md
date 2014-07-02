@@ -4,7 +4,7 @@ Most of the fields in cortex.json is similar to `npm`'s package.json.
 
 It is important to know the meaning of each field.
 
-##name
+## name
 
 This is the most important field, it specifies the package name, which is the unique identifier of a package.
 
@@ -22,7 +22,7 @@ It's an array of strings, always put some keywords here, and it will helps peopl
 
 
 ## main
-The entry point of a package, it's modules.exports will be returned when calling `require('packageName')`.
+The entry point of a package, it's modules.exports will be returned when calling `require(packageName)`.
 
 ## entries
 Cotex supports multiple entries(See Chapter 2.1 for details). All matching files will be treated as an entry when built, and you can load them using `facade` or `require.async`

@@ -13,6 +13,9 @@
    * [Bootstrap with Facades](build_web_sites/using_facade_to_bootstrap.md)
    * [Lock Down Dependencies](lock_down_dependencies/README.md)
    * [Deploy](build_web_sites/deploy.md)
+* [Example Projects](examples/README)
+* [Best Practises](best_practises/README)
 * [Instructions](instructions/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
+   * [cortex-scripts](instructions/cortex-scripts)
 

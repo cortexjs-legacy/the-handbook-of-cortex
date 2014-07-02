@@ -1,3 +1,3 @@
 # Instructions
 
-Cortex Reference
+Cortex manuals for Developers.

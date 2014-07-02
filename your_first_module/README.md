@@ -1,6 +1,6 @@
-# Your first module
+# Your First Module
 
-This chapter will guide you to build a module called 'colorify'.
+This chapter will guide you to build a module called `'colorify'`.
 
 Its functionality is very simple: set the background color of the specified element.
 

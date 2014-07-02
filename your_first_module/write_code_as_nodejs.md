@@ -1,10 +1,10 @@
 # Write Code as Nodejs
 
-Now let's get hand dirty.
+Now let's get our hands dirty.
 
-## 1. Initialze the project
+## 1. Initialze the Project
 
-First make a directory called 'colorify', in the direcory root path, run:
+First make a directory called `'colorify'`, in the direcory root path, run:
 
 ```bash
 cortex init
@@ -23,7 +23,7 @@ colorify/
 
 cortex.json is much like package.json in npm, it describes all the information about this package. For complete reference, see Chaptar 3.2 - About cortex.json.
 
-## 2. Install dependencies
+## 2. Install Dependencies
 
 We need to set the background color of a dom element, so let jquery helps us to do so. Install jquery by:
 
@@ -40,7 +40,7 @@ installing jquery@*
 write /Users/ltebean/Desktop/colorify/neurons/jquery/1.9.1/jquery.js
 ```
 
-## 3. Begin coding
+## 3. Begin to Code
 
 Now that `jquery` is installed, we can depend on it to reach our goal, edit index.js:
 

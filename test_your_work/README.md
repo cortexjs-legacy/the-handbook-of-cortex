@@ -2,7 +2,7 @@
 
 Now let's add some testcases.
 
-## 1. Install Cortex Test
+## 1. Install `cortex-test`
 
 Currently `cortex-test` is in a seperate package, so install it by:
 
@@ -11,7 +11,7 @@ npm install -g cortex-test
 ```
 
 
-## 2. Add a test page
+## 2. Add a Test Page
 
 Create a page called colorify.html in the test folder, and just add the necessary markup:
 
