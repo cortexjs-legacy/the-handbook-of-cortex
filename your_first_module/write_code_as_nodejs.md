@@ -21,7 +21,7 @@ colorify/
 |-- index.js           // module's entry point
 ```
 
-cortex.json is much like package.json in npm, it describes all the information about this package. For complete reference, see Chaptar 3.2 - About cortex.json.
+cortex.json is much like package.json in npm, it describes all the information about this package. For complete reference, About cortex.json.
 
 ## 2. Install Dependencies
 

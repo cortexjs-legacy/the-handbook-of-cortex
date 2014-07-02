@@ -48,8 +48,8 @@ This field specifies where is the css resources. It's an array of file path, glo
 }
 ```
 
-## direcotry.src
-Describe resources such as images, templates. Suppose you place them in a folder called 'source':
+## directories.src
+Describe resources such as images, templates. Suppose you place them in a folder called `'source'`:
 ```
 root/
    |-- source/

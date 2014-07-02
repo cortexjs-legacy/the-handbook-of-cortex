@@ -1,3 +1,3 @@
 # Instructions
 
-Cortex manuals for Developers.
+This chapter contains manuals for developers.
