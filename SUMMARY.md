@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Know Cortex](know_cortex/README.md)
    * [Why Cortex](know_cortex/why_cortex.md)
 * [Your First Module](your_first_module/README.md)
@@ -14,6 +15,7 @@
    * [Lock Down Dependencies](lock_down_dependencies/README.md)
    * [Deploy](build_web_sites/deploy.md)
 * [Example Projects](examples/README.md)
+   * [Example: todos.backbonejs](examples/example_todosbackbonejs.md)
 * [Best Practises](best_practises/README.md)
 * [Instructions](instructions/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
