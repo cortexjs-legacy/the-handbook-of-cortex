@@ -16,6 +16,7 @@
    * [Deploy](build_web_sites/deploy.md)
 * [Example Projects](examples/README.md)
    * [Example: todos.backbonejs](examples/example_todosbackbonejs.md)
+   * [Example: autocomplete & bootstrap](examples/example_autocomplete_&_bootstrap.md)
 * [Best Practises](best_practises/README.md)
 * [Instructions](instructions/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
