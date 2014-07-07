@@ -17,13 +17,13 @@ Finally you can load the entry file by:
 
 ```
 facade({
-    mod:'{packageName}/{pathToTheEntryFile}'
+    entry:'{packageName}/{pathToTheEntryFile}'
 })
 ```
 
 For example, on the item detail page, load the script by:
 ```
 facade({
-    mod:'flower-shop/entries/item-detail.js'
+    entry:'flower-shop/entries/item-detail.js'
 })
 ```
