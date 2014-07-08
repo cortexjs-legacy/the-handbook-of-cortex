@@ -11,8 +11,14 @@ You can contribute on  [GitHub](https://github.com/cortexjs/the-handbook-of-cort
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md).
 
+## Contact Us
+
 You are always free and welcome to ask us any questions about [cortex](https://github.com/cortexjs/cortex) by [creating new issues](https://github.com/cortexjs/cortex/issues). The frequent asked questions might be included in this book in the future.
 
+- Email Group:
+  - Public: [cortexjs@googlegroup.com](cortexjs@googlegroups.com)
+  - Dev Team: [support@ctx.io](support@ctx.io)
+- IRC: [#cortexjs](http://webchat.freenode.net/?channels=cortexjs)
 
 ## License
 
