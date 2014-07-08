@@ -7,7 +7,7 @@ Open cortex.json, check the `dependencies` field:
 ```json
 {
   "dependencies": {
-    "jquery": "~1.9.2"
+    "jquery": "^1.9.2"
   }
 }
 ```
