@@ -20,15 +20,13 @@ Finally, there is no confuse with configurations for environment and projects in
 
 ## Cortex vs. Browserify
 
-Browserify is pretty lovely and nice.
-
-The main differences between Cortex and Browserify are:
+Browserify is pretty lovely and nice, but the main differences between Cortex and Browserify are:
 
 - Cortex is not only suitable for small projects,  but also scale well for enterprise projects.
 
 - Cortex will not bundle all the things into a single file.
 
-- Browserify aims to make node modules work in the browser, while Cortex is build for the web, it uses its own registry, which leads to no ambiguity that whether a package is  browser-compatible.
+- Browserify aims to make node modules work in the browser, while Cortex is build for the web, it uses its own registry, which leads to no ambiguity about whether a package is browser-compatible.
 
 
 ## Cortex vs. Bower
