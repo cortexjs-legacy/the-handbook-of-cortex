@@ -7,7 +7,7 @@ This tiny and handy book covers the basics of
 
 ## How to Contribute
 
-You can contribute on  [GitHub](https://github.com/cortexjs/the-handbook-of-cortex), changes will be [pushed to Gitbook.io automatically](https://github.com/cortexjs/the-handbook-of-cortex/activity) when the [main repository](https://github.com/cortexjs/the-handbook-of-cortex) changes, which will rebuild the site.
+You can contribute on  [GitHub](https://github.com/cortexjs/the-handbook-of-cortex), changes will be pushed to Gitbook.io automatically when the [main repository](https://github.com/cortexjs/the-handbook-of-cortex) changes, which will rebuild the site.
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md).
 

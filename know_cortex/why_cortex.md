@@ -46,3 +46,8 @@ We use cortex to help use to collaborate with developers from other teams and ev
 > Bugs with no replies?
 
 You will never worry about that. Bugs have high priorities because we use it in production!
+
+****
+
+To compare with other managers, see [cortex v.s.](http://book.ctx.io/instructions/cortex_vs.html)
+
