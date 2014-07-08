@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Know Cortex](know_cortex/README.md)
-   * [Why Cortex](know_cortex/why_cortex.md)
 * [Your First Module](your_first_module/README.md)
    * [Write Code as Nodejs](your_first_module/write_code_as_nodejs.md)
    * [Always Remember to Test](test_your_work/README.md)
