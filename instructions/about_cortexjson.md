@@ -74,21 +74,9 @@ var default_avatar = require.resolve('./source/avatar.png');
 
 ## scripts
 
-Allows you to define custom build scripts during the life cycle of `cortex build`
+Allows you to define custom build scripts during the life cycle of the package. For detailed reference see Chapter 7.2 cortex-scripts
 
-### scripts.prebuild
-Thes scripts will be called before built.
 
-```
-{
-  "scripts": {
-    "prebuild": [
-      "gulp dev",
-      "gulp"
-    ]
-  }
-}
-```
 
 
 
