@@ -33,7 +33,7 @@ If you are using some css preproccessors such as stylus, you can specified the p
 
 
 
-## 2. Ohter resources
+## 2. Other resources
 You can also ship other resources such as images, templates. Suppose you place them in a folder called 'source':
 
 ```
@@ -54,7 +54,7 @@ In cortex.json, set the `direcotries.src` field to that folder:
 }
 ```
 
-Then in index.js, you can use require.resolve() to accquire the absoulute path of that resources.
+Then in index.js, you can use require.resolve() to accquire the absolute path of that resources.
 
 ```js
 var avatar_path = require.resolve('./source/avatar.png');

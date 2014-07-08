@@ -1,6 +1,6 @@
 # Entry Files
 
-Unlike module(which has a single entry),  a website usually consists of lots of pages, which results in mutiple entry files.
+Unlike module(which has a single entry),  a website usually consists of lots of pages, which results in multiple entry files.
 
 Suppose our website has 3 pages:
 * index page
