@@ -15,8 +15,4 @@ Cortex offers:
 
 Cortex is especially suitable for large projects because it helps us break down the logic into modular pieces.
 
-> We never make toys.
-
-Cortex has been used in production in [dianping.com](http://t.dianping.com), the largest leading local life information and trading platform in China, for years.
-
 Small projects could also benefit from cortex, just install our best buddy jquery, or bootstrap, then focus on the work to bring your brilliant ideals into reality!
