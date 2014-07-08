@@ -100,6 +100,25 @@ In most cases, you don't need to modify this field by hand; When you installs so
 If someone is planning on downloading and using your module in their program, they probably don't want or need to download and build the external test or documentation that you use during development. Those external test and documentation framework should go to devDependencies field. You can use `cortex install --save-dev` to save a dependency into `devDependencies` hash.
 
 
+For example, a dependencies hash could be:
+
+```
+{
+  "dependencies" :
+  {
+    "foo" : "1.0.0"
+    , "bar" : "~1.2.0"
+    , "baz" : "^1.0.2"
+    , "boo" : "2.x"
+    , "qux" : ">= 3.0.1"
+    , "myo" : ">= 1.8.0 < 2.0.0"
+    , "elf" : "*"
+    , "thr" : "3.3.x"
+  }
+}
+```
+
+
 ## asyncDependencies
 
 This field defines the dependencies will loaded at runtime dynamically. So those packages won't be loaded until you use them.
