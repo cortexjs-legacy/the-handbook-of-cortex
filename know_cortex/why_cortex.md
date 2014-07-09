@@ -10,6 +10,7 @@ Dianping is the largest leading local life information and trading platform in C
 
 We use cortex to help use to collaborate with developers from other teams and even different business units.
 
+Cortex will seperate each JavaScript file into a unique sandbox scope, which means it is safe for several developers to collaborate with each others.
 
 ## If you use NPM, you already know how to use Cortex
 
@@ -23,9 +24,12 @@ We use cortex to help use to collaborate with developers from other teams and ev
 ## Say No to *MDs
 
 > Do the simplest necessary thing.
+>
+> Just in the node way.
 
 * Write code the same way as in Node.js, just use `require`, `exports`, `module.exports`. No need to wrap the code to make it work. Just forget AMD, UMD, and *MDs.
 * `cortex build` handles everything  to make your code work in browser
+* `require()`ing a directory, `__dirname`, `__filename` are also supported according to [File Module](http://nodejs.org/api/modules.html#modules_file_modules)
 
 ## Package Manager, Not a Script Manager
 
@@ -46,6 +50,8 @@ We use cortex to help use to collaborate with developers from other teams and ev
 > Bugs with no replies?
 
 You will never worry about that. Bugs have high priorities because we use it in production!
+
+It is ok even if one of our developers says farewell because we have a team and a bunch of projects using cortex, and cortex will be continueously maintained.
 
 ****
 
