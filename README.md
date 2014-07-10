@@ -1,6 +1,8 @@
 > If you found the project interesting, could your please [become our stargazer](https://github.com/cortexjs/cortex/stargazers), or fork us on [github](https://github.com/cortexjs/cortex).
 
-# The Handbook of Cortex
+
+
+# The Handbook of Cortex [![cortex](https://raw.githubusercontent.com/cortexjs/the-handbook-of-cortex/master/images/github.png)](https://github.com/cortexjs/cortex/stargazers)
 
 This tiny and handy book covers the basics of
 - what is [cortex](https://github.com/cortexjs/cortex),
