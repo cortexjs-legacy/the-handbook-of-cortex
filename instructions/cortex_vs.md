@@ -43,11 +43,11 @@ Meanwhile, Cortex allows multiple versions of the same dependency exist simultan
 Requirejs is a module loader, while Cortex a is package manager.
 
 > Anyone who actually enjoys writing module systems is too insane to be trusted. The only rational position is to do the simplest necessary thing, and as quickly as possible get to the business of building real programs with it. Optimize for that.
-> -- Isaac Z. Schlueter
+> -- Isaac Z. Schlueter, the author of NPM
 
 With requirejs, you have to wrap your code with `define.amd`, while with Cortex, you write code the same way as in Node.js. Cortex will handle all things to make your code work in browser.
 
-It’s always better to make our source code clean, just follows module/1.0 spec and write code in the Node.js way.
+It’s always better to make our source code clean, just follows [module/1.0](http://wiki.commonjs.org/wiki/Modules/1.0) standard and write code in the Node.js way.
 
 
 

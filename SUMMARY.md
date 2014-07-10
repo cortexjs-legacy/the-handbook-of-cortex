@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Know Cortex](know_cortex/README.md)
    * [Why Cortex](know_cortex/why_cortex.md)
+   * [Cortex v.s.](instructions/cortex_vs.md)
 * [Your First Module](your_first_module/README.md)
    * [Write Code as Nodejs](your_first_module/write_code_as_nodejs.md)
    * [Always Remember to Test](test_your_work/README.md)
@@ -20,5 +21,4 @@
 * [Instructions](instructions/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
    * [cortex-scripts](instructions/cortex-scripts.md)
-   * [Cortex v.s.](instructions/cortex_vs.md)
 
