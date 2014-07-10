@@ -16,9 +16,9 @@ Another major difference is that Cortex will not bundle all the things into a si
 - Makes it possible to automatically pack a package and its dependencies into a zip file for delivery or download purpose.
 - Other creative ideas that only limited by your imagination.
 
-Then, `component.remotes` and `component.paths` are configs for environment which are confusing and should not be included in the project. Cortex uses profiles to manage these kind of configurations like Google Chrome.
+Then, `component.remotes` and `component.paths` are configs for environment which are confusing and should not be included in the project. Cortex uses profiles to manage this kind of configurations like Google Chrome.
 
-Finally, we have a professional team working on cortex. It is ok even if one of our developers says farewell because we are not only one person. And a bunch of projects are using cortex, so cortex will be continueously maintained.
+Finally, we have a professional team working on cortex. It is **OK** even if one of our developers says farewell because we are not only one person. And a bunch of projects are using cortex, so cortex will be continueously maintained.
 
 ## Cortex vs. Browserify
 
