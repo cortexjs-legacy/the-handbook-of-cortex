@@ -21,4 +21,5 @@
 * [Instructions](instructions/README.md)
    * [About cortex.json](instructions/about_cortexjson.md)
    * [cortex-scripts](instructions/cortex-scripts.md)
+   * [How to Write a Cortex Plugin](instructions/how_to_write_a_cortex_plugin.md)
 
