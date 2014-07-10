@@ -44,4 +44,8 @@ $ cortex myplugin --haha
 
 You can use several nice module to handle the argument vector, such as [`minimist`](http://www.npmjs.org/package/minimist) by @substack.
 
-And there are lots of utility modules which are used by cortex, you can find them in the group [github/cortexjs](http://github.com/cortexjs) or by searching `'cortex'` in [npmjs.org](https://www.npmjs.org/search?q=cortex).
+And there are lots of utility modules which are used by cortex, you can find them in the group [github/cortexjs](https://github.com/cortexjs) or by searching `'cortex'` in [npmjs.org](https://www.npmjs.org/search?q=cortex).
+
+## Something You Need to Know
+
+- You can not use a name of the built-in command of cortex, such as `cortex-install`, it won't work.
