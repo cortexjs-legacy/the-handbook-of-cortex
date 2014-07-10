@@ -51,8 +51,6 @@ Cortex will seperate each JavaScript file into a unique sandbox scope, which mea
 
 You will never worry about that. Bugs have high priorities because we use it in production!
 
-It is ok even if one of our developers says farewell because we have a team and a bunch of projects using cortex, and cortex will be continueously maintained.
-
 ****
 
 To compare with other managers, see [cortex v.s.](http://book.ctx.io/instructions/cortex_vs.html)

@@ -38,7 +38,7 @@ Usage:
 ```
 
 ## css
-This field specifies where is the css resources. It's an array of file path, glob pattern is also supported. The order matters and it decides the built result.
+This field specifies where are the css resources. It's an array of file path, glob pattern is also supported. The order matters and it decides the built result.
 ```
 {
   "css": [
@@ -49,6 +49,7 @@ This field specifies where is the css resources. It's an array of file path, glo
 ```
 
 ## directories.src
+
 Describe resources such as images, templates. Suppose you place them in a folder called `'source'`:
 ```
 root/
@@ -74,7 +75,7 @@ var default_avatar = require.resolve('./source/avatar.png');
 
 ## scripts
 
-Allows you to define custom build scripts during the life cycle of the package. For detailed reference see Chapter 6.2 cortex-scripts
+Allows you to define custom build scripts during the life cycle of the package. For detailed reference see the next chapter.
 
 
 
