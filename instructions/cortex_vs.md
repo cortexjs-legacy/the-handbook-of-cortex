@@ -1,6 +1,6 @@
 # Cortex v.s.
 
-First of all, cortex is a project in production of large websites with multiple developers for over 1 years, not a project which only has specifications and people just watch, wait and see.
+First of all, cortex is a project in production of large websites for over 1 years, not a project which only has specifications and people just watch, wait and see.
 
 ## Cortex vs. Requirejs/systemjs
 
@@ -23,15 +23,6 @@ With requirejs/systemjs, you have to wrap your code with `define.amd`, while wit
 Actually, AMD or something is hard to cover all cases, such as SemVer ranges, and fallback of [file modules](http://nodejs.org/api/modules.html#modules_file_modules).
 
 Leave the code with only module/1.0, so you need not to change anything to embrace the future.
-
-## Cortex vs. Webpack
-
-Webpack does a great work, although cortex and webpack are doing different things.
-
-> We don't like too many choices in front of us.
->
-> We just want to get things done.
-
 
 
 ## Cortex vs. Component
@@ -72,3 +63,24 @@ Bower does not actually make the package modular, because JavaScript files downl
 And since bower just downloads and leaves, you have to manually coordinate JavaScript files and import the JavaScript or css files into the html one by one.
 
 Cortex manages each module in an isolated sandbox, which allows multiple versions of the same dependency exist simultaneously while Bower can not, due to the reason described above.
+
+
+## Cortex vs. Webpack
+
+Webpack does a great work, although cortex and webpack are doing different things.
+
+> We don't like too many choices in front of us.
+>
+> We just want to get things done.
+
+We encourage people to make the browser-side projects clean, with
+
+- basic configurations,
+- better declaration of dependencies,
+- only node-style modules (which is good for the ecosystem in many ways)
+
+to improve the ecosystem for browsers just like NPM does for nodejs.
+
+Cortex has a workflow for developers to care less and do more.
+
+Cortex is much like NPM, so if you are familiar with nodejs development, you are already know how to make things work on browsers with cortex.
