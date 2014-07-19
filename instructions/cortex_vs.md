@@ -1,5 +1,39 @@
 # Cortex v.s.
 
+First of all, cortex is a project in production of large websites with multiple developers for over 1 years, not a project which only has specifications and people just watch, wait and see.
+
+## Cortex vs. Requirejs/systemjs
+
+#### Cortex is A Package Manager
+Requirejs or systemjs is a **module loader**, while Cortex a is package manager.
+
+A package could have many modules and only one entrypoint (which let out the APIs of the package). And a package for browsers could also contain csses, images, fonts, etc.
+
+Cortex helps to write modules arbitrarily and provides a way to make the granularity under a rational level.
+
+#### Forget *MDs
+
+> Anyone who actually enjoys writing module systems is too insane to be trusted. The only rational position is to do the simplest necessary thing, and as quickly as possible get to the business of building real programs with it. Optimize for that.
+> -- Isaac Z. Schlueter, the author of NPM
+
+There are too many *MDs in the world, forget them, just follows [module/1.0](http://wiki.commonjs.org/wiki/Modules/1.0) standard and write code in the Node way.
+
+With requirejs/systemjs, you have to wrap your code with `define.amd`, while with Cortex, you write code the same way as in Node.js. Cortex will handle everything you need to make the code work in browser.
+
+Actually, AMD or something is hard to cover all cases, such as SemVer ranges, and fallback of [file modules](http://nodejs.org/api/modules.html#modules_file_modules).
+
+Leave the code with only module/1.0, so you need not to change anything to embrace the future.
+
+## Cortex vs. Webpack
+
+Webpack does a great work, although cortex and webpack are doing different things.
+
+> We don't like too many choices in front of us.
+>
+> We just want to get things done.
+
+
+
 ## Cortex vs. Component
 
 Component uses Github as its registry, although Github is so fancy that all our developers like it so much, it  results in inadequate constraints and check to ensure a package is just ready for use.
@@ -22,7 +56,7 @@ Finally, we have a professional team working on cortex. It is **OK** even if one
 
 ## Cortex vs. Browserify
 
-Browserify is pretty lovely and nice, but the main differences between Cortex and Browserify are:
+Browserify is pretty lovely and nice (and James is an interesting guy ;D), but the main differences between Cortex and Browserify are:
 
 - Cortex is not only suitable for small projects,  but also scale well for enterprise projects.
 
@@ -38,19 +72,3 @@ Bower does not actually make the package modular, because JavaScript files downl
 And since bower just downloads and leaves, you have to manually coordinate JavaScript files and import the JavaScript or css files into the html one by one.
 
 Cortex manages each module in an isolated sandbox, which allows multiple versions of the same dependency exist simultaneously while Bower can not, due to the reason described above.
-
-## Cortex vs. Requirejs
-
-Requirejs is a module loader, while Cortex a is package manager.
-
-> Anyone who actually enjoys writing module systems is too insane to be trusted. The only rational position is to do the simplest necessary thing, and as quickly as possible get to the business of building real programs with it. Optimize for that.
-> -- Isaac Z. Schlueter, the author of NPM
-
-With requirejs, you have to wrap your code with `define.amd`, while with Cortex, you write code the same way as in Node.js. Cortex will handle everything you need to make the code work in browser.
-
-It’s always better to make our source code clean, just follows [module/1.0](http://wiki.commonjs.org/wiki/Modules/1.0) standard and write code in the Node way.
-
-
-
-
-
