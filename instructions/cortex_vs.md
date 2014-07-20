@@ -79,8 +79,10 @@ We encourage people to make the browser-side projects clean, with
 - better declaration of dependencies,
 - only node-style modules (which is good for the ecosystem in many ways)
 
-to improve the ecosystem for browsers just like NPM does for nodejs.
+to improve the ecosystem for browsers just like NPM does for nodejs, helping people make useful packages.
 
-Cortex has a workflow for developers to care less and do more.
+Cortex is much like NPM, so if you are familiar with nodejs development, you are already know how to make things work on browsers, and it will only takes a few seconds to make a hello world package, with cortex.
 
-Cortex is much like NPM, so if you are familiar with nodejs development, you are already know how to make things work on browsers with cortex.
+Cortex has a workflow for developers to care less and do more. Cortex focuses on the primary actions for a developer to make a product come true, and better experiences to collaborate with multiple developers. We've been building massive applications, that we know the pain.
+
+
