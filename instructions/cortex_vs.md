@@ -2,6 +2,8 @@
 
 First of all, cortex is a project in production of large websites for over 1 years, not a project which only has specifications and people just watch, wait and see.
 
+Then, cortex might have the most exquisite version control ability over other browser-side solutions so far, making us free from worry to to collaborate with each others.
+
 ## Cortex vs. Requirejs/systemjs
 
 #### Cortex is A Package Manager
@@ -83,6 +85,6 @@ to improve the ecosystem for browsers just like NPM does for nodejs, helping peo
 
 Cortex is much like NPM, so if you are familiar with nodejs development, you are already know how to make things work on browsers, and it will only takes a few seconds to make a hello world package, with cortex.
 
-Cortex has a workflow for developers to care less and do more. Cortex focuses on the primary actions for a developer to make a product come true, and better experiences to collaborate with multiple developers. We've been building massive applications, that we know the pain.
+Cortex has a workflow for developers to care less and do more, and focuses on the primary actions for a developer to make a product come true, and better experiences to collaborate with multiple developers. We've been building massive applications, that we know the pain.
 
 
