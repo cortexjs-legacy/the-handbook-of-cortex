@@ -1,4 +1,4 @@
-> 如果你觉得我们的项目还过得去，不妨 [关注我们的 github 项目吧](https://github.com/cortexjs/cortex/stargazers), 之后还有神秘好礼相送哦~
+> 如果你觉得我们的项目还过得去，不妨 [关注我们的 github 项目吧](https://github.com/cortexjs/cortex/stargazers)，之后还有神秘好礼相送哦~
 
 [![cortex](https://raw.githubusercontent.com/cortexjs/the-handbook-of-cortex/master/images/github.zh-cn.png)](https://github.com/cortexjs/cortex/stargazers)
 

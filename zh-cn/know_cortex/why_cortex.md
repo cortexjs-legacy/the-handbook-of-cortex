@@ -1,8 +1,8 @@
-# Why Cortex
+# Cortex 的优势
 
 > We **NEVER** make toys.
 
-## Capable For Projects of Enterprise Level
+## 胜任企业级应用的高要求
 
 Cortex has been used in production of [dianping.com](http://t.dianping.com) for years.
 
