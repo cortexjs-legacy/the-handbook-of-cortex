@@ -1,6 +1,6 @@
 > 如果你觉得我们的项目还过得去，不妨 [关注我们的 github 项目吧](https://github.com/cortexjs/cortex/stargazers), 之后还有神秘好礼相送哦~
 
-[![cortex](https://raw.githubusercontent.com/cortexjs/the-handbook-of-cortex/master/images/github.png)](https://github.com/cortexjs/cortex/stargazers)
+[![cortex](https://raw.githubusercontent.com/cortexjs/the-handbook-of-cortex/master/images/github.zh-cn.png)](https://github.com/cortexjs/cortex/stargazers)
 
 # Cortex 小手册
 
@@ -21,7 +21,7 @@
 - Email Group:
   - Public: [cortexjs@googlegroup.com](cortexjs@googlegroups.com)
   - Dev Team: [support@ctx.io](support@ctx.io)
-- IRC: [#cortexjs](http://webchat.freenode.net/?channels=cortexjs)，_什么你不知道 IRC? @substack 最喜欢 IRC 了_
+- IRC: [#cortexjs](http://webchat.freenode.net/?channels=cortexjs)，_什么你不知道 IRC? [@substack](https://twitter.com/substack) 最喜欢 IRC 了_
 
 
 ## 跟我们一起写书吧
@@ -29,6 +29,8 @@
 可以直接在 [GitHub](https://github.com/cortexjs/the-handbook-of-cortex) 上贡献, 合并的代码会直接更新到这本书里面。
 
 可以通过任何文本编辑器来写 markdown，或者使用 gitbook 的 [官方编辑器](https://github.com/GitbookIO/editor/blob/master/README.md)（虽然很难用，吐个槽）
+
+
 
 ## License
 
