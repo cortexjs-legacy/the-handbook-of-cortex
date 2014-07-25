@@ -2,7 +2,7 @@
 
 * [前言](README.md)
 * [Cortex 是什么？](know_cortex/README.md)
-   * [Why Cortex](know_cortex/why_cortex.md)
+   * [Cortex 的优势](know_cortex/why_cortex.md)
    * [Cortex v.s.](instructions/cortex_vs.md)
 * [Your First Module](your_first_module/README.md)
    * [Write Code as Nodejs](your_first_module/write_code_as_nodejs.md)
