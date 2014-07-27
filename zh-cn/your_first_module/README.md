@@ -1,26 +1,32 @@
-This is a chapter for beginners. If you are familiar with node.js development
+这是一个入门章节，如果你已经对 node.js 或者 cortex 有一定的熟悉，可以跳过它。
 
-# Your First Module
+# 你的第一个模块
 
-This chapter will guide you to build a module called `'colorify'`.
+接下来，我们来一起创造一个名为 `'colorify'` 的模块。它的作用很简单：
 
-Its functionality is very simple: set the background color of the specified element.
+> 给特定的元素设置指定的颜色
 
-Before writing the code, there are some prepartion work to do:
+在我们写代码之前，我们还有一些准备工作需要完成：
 
-### Install Node.js
+### 安装 Node.js
 
-Just go to http://nodejs.org/, download and install the latest version of Nodejs. A version >= 0.10.0 is needed.
+访问 [nodejs 的官方网站](http://nodejs.org/), 下载并安装最新版本。我们最少需要安装 node 0.10.0.
 
-### Install Cortex
+### 安装 Cortex
 
-Then run the following command in your terminal:
+借助 npm（node package manager，大多数情况，它会由 node 自带），安装 cortex 很简单，只需要在你的命令行终端中运行（不要包含 `$`）：
 
-```js
-# Maybe you need `sudo`
-npm install -g cortex
+```sh
+# 根据实际情况，有可能你需要使用 sudo
+$ npm install -g cortex
 ```
 
-when the installation process finishes, run `cortex -v` to verify if cortex is successfully installed.
+当安装完成后，运行如下命令：
+
+```sh
+$ cortex
+```
+
+如果能够看到 cortex 的帮助信息，则表示安装成功了 ~
 
 
