@@ -53,5 +53,5 @@ You will never worry about that. Bugs have high priorities because we use it in 
 
 ****
 
-To compare with other managers, see [cortex v.s.](http://book.ctx.io/instructions/cortex_vs.html)
+To compare with other managers, see [cortex v.s.](http://book.ctx.io/en/instructions/cortex_vs.html)
 
