@@ -44,7 +44,7 @@ root/
 ```
 
 
-In cortex.json, set the `direcotries.src` field to that folder:
+In cortex.json, set the `directories.src` field to that folder:
 
 ```json
 {
